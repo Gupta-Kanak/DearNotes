@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+.bg-dot-pattern{
+    background-image: radial-gradient(#a9b0c6a6 2px, transparent 2px);
+    background-size: 90px 90px;
+}
+
+.c1{
+    background-color: #ffc8dd;
+    background-image: radial-gradient(#fff6f9 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #001933;
+}
+
+.c2{
+    background-color: #bde0fe;
+    background-image: radial-gradient(#f3f3f3 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #0e131f;
+}
+
+.c3
+{
+    background-color: #D8C3F3;
+    background-image: radial-gradient(#f6ece9 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #151824;
+}
+
+.c4{
+    background-color: #C1E1C1;
+    background-image: radial-gradient(#faf8f0 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #2a3132;
+}
+
+.c5{
+    background-color: #7a65aa;
+    background-image: radial-gradient(#a097bd 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: whitesmoke;
+}
+
+.c6{
+    background-color: #fed9b7;
+    background-image: radial-gradient(#fdfcdc 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #003d5b;
+}
+
+.c7{
+    background-color: #EAD5DC;
+    background-image: radial-gradient(#fdfafa 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #242735;
+}
+
+.c8{
+    background-color: #FFFACD;
+    background-image: radial-gradient(#f4c2c2 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #463f45;
+
+}
+
+.c9{
+    background-color: #c9ada7;
+    background-image: radial-gradient(#f2e9e4 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #131323;
+}
+
+.c10{
+    background-color: #809bce;
+    background-image: radial-gradient(#bde0fe 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #170217;  
+}
+
+.c11{
+    background-color: #98f5e1;
+    background-image: radial-gradient(#fffed6 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #2b2d42;
+}
+
+.c12{
+    background-color: #dddfdf;
+    background-image: radial-gradient(#bfb8b3 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #1F2232;
+}
+
+.c13{
+    background-color: #fcd45d;
+    background-image: radial-gradient(#fff9d0 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #333138;
+}
+
+.c14{
+    background-color: #89d2a3;
+    background-image: radial-gradient(#fcefb4 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #222222;
+}
+
+.c15{
+    background-color: #adb5bd;
+    background-image: radial-gradient(#e9ecef 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #212529;
+}
+
+.c16{
+    background-color: #ffba78;
+    background-image: radial-gradient(#ffe69e 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #192600;
+}
+
+.c17{
+    background-color: #e07e86;
+    background-image: radial-gradient(#ffd3b6 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #e9f0fa;
+}
+
+.c18{
+    background-color: #9d8189;
+    background-image: radial-gradient(#ffcad4 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #ffffff;
+}
+
+.c19{
+    background-color: #198b9ad2;
+    background-image: radial-gradient(#dddbcb 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #eeeeee;
+}
+
+.c20{
+    background-color: #e63c4d;
+    background-image: radial-gradient(#cbc1e3 4px, transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+    color: #f4f2f9;
+}
+
+.add{
+    background-color: #f7f8fa;
+    background-image: radial-gradient(#1F2232 4px , transparent 4px);
+    background-size: 90px 90px;
+    background-position: center;
+}
+
+.add-inv{
+    background-color: #1F2232;
+    
+    background-size: 90px 90px;
+    background-position: center;
+}
+
+.c-inv{
+    background-size: 65px 50px
+}

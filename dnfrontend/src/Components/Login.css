@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.bg-dot-pattern{
+    background-image: radial-gradient(#a9b0c6a6 2px, transparent 2px);
+    background-size: 90px 90px;
+}
+input:-webkit-autofill {
+  background-color: #A9B0C6!important; 
+  -webkit-box-shadow: 0 0 0px 1000px #A9B0C6 inset !important;
+  color: #1F2232 !important;
+  -webkit-text-fill-color: #1F2232 !important;
+}
+

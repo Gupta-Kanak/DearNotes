@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+.logo {
+  /* filter: brightness(0) saturate(100%) invert(36%) sepia(12%) saturate(561%) hue-rotate(182deg) brightness(95%) contrast(92%); */
+  background: transparent;
+  background-color: #a0b6c9;
+}
