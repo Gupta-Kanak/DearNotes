@@ -40,3 +40,5 @@ JWT_SECRET = your_secret_code
 ```bash
 npm run start
 ```
+---
+The backend server will start on [http://localhost:8000](http://localhost:8000)
