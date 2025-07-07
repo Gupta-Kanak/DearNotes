@@ -10,8 +10,6 @@ function Home() {
     useEffect(() => {
       if(!localStorage.getItem("auth-token"))
         navigateTo('/login');
-      else
-        setReady(true);
     },[]);
 
   return (
@@ -19,7 +17,8 @@ function Home() {
       <div className='bg-cover bg-[#1F2232] bg-dot-pattern bg-centern min-h-screen'>
         <div className=' backdrop-blur-[2px] h-[vh]'>
           <Navbar/>
-          (ready && <Notes />)
+          {localStorage.getItem("auth-token") &&
+          <Notes />}
         </div>
       </div>
     </>
