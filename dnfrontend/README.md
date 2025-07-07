@@ -1,12 +1,36 @@
-# React + Vite
+# Dear Notes – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of **Dear Notes**, a full-stack note-taking application.  
+Built with [React](https://react.dev/) and [Vite](https://vitejs.dev/), it provides a responsive and interactive UI for creating, viewing, and organizing personal notes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Tailwind CSS](https://tailwindcss.com/) (for styling)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/Gupta-Kanak/DearNotes.git
+cd DearNotes/dnfrontend
+```
+
+### 2. Install Dependencies
+
+```
+npm install
+```
+
+### 3. Run the APP
+
+```
+npm run dev
+```
