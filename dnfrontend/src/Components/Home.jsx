@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect,useState} from 'react';
 import { useNavigate } from 'react-router';
 import Navbar from './Navbar';
 import Notes from './Notes';
@@ -6,9 +6,12 @@ import './Notes.css';
 
 function Home() {
     let navigateTo = useNavigate();
+    const [ ready, setReady] = useState(false);
     useEffect(() => {
       if(!localStorage.getItem("auth-token"))
         navigateTo('/login');
+      else
+        setReady(true);
     },[]);
 
   return (
@@ -16,7 +19,7 @@ function Home() {
       <div className='bg-cover bg-[#1F2232] bg-dot-pattern bg-centern min-h-screen'>
         <div className=' backdrop-blur-[2px] h-[vh]'>
           <Navbar/>
-          <Notes />
+          (ready && <Notes />)
         </div>
       </div>
     </>
