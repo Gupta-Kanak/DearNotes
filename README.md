@@ -35,7 +35,7 @@ See full setup at [**Backend.md**](./dnbackend/README.md)
 #### Frontend Setup
 See full setup at [**Frontend.md**](./dnfrontend/README.md)
 
-### 4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+### 4. Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
 
 ## Project Demo
 
